@@ -11,7 +11,9 @@
 }
 
 .site-title {
-    font-size: 26px;
+
+    font-family: $site-title-font-family;
+    font-size: $site-title-font-size;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -163,6 +165,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background-image: $content-area-background;
 }
 
 .page-heading {
