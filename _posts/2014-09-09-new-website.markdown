@@ -7,8 +7,7 @@ categories: meta
 
 # Hello, internet.
 
-I have decided to rebuild my website and blog using the [Jekyll framework][jekyll]. My old site was built on [Wordpress][wordpress], which is a bit heavy for what I need to do. Hosting this website on [my Github page][mygit] allows me to do the following:
-
+I have decided to rebuild my website and blog using the [Jekyll framework][jekyll]. My old site was built on [Wordpress][wordpress], which is a bit heavy for what I need to do. Hosting this website on [my Github page][mygit] allows me to do the following.
 <ul>
 	<li>Securely update it from anywhere.</li>
 	<li>Avoid using an unncessary database.</li>
