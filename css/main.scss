@@ -3,13 +3,24 @@
 ---
 @charset "utf-8";
 
+// Import some fonts 
 
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+
+// $site-title-font-family: ;
+// $site-title-font-size: ;
+
+// $post-title-font-family: ;
+// $post-title-font-size: ;
+
+$base-font-family: 'Open Sans', sans-serif;;
+$base-font-size:   20px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.85;
 
 $spacing-unit:     30px;
 
@@ -23,6 +34,8 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+$content-area-background: url('/assets/cream_dust.png');
 
 
 
