@@ -190,10 +190,10 @@ pre {
  */
 .icon {
 
-    > svg {
+    > img ,svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 20px;
+        // height: auto;
         vertical-align: middle;
 
         path {
