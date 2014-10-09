@@ -15,6 +15,7 @@ Here are the latest programming projects I have been working on:
 	<li>
 		<h3>Merecraft</h3>
 		<p class="post-meta">Established April 2013</p>
-		<p>Merecraft is a small community based around the popular game Minecraft. Besides founding the server, I helped grow the community, code custom Java plugins, and perform server maintenance.</p>
+		<p>Merecraft is a small community based around the popular game Minecraft. Besides founding the server, I helped grow the community, code custom Java plugins, and perform server maintenance.
+		</p>
 	</li>
 </ul>
