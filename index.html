@@ -18,6 +18,7 @@ layout: default
           {% if forloop.index0 == 0 %}
             {% if post.content contains "<!-- more -->" %}
               {{ post.content | split:"<!-- more -->" | first % }}
+              <a href="{{ post.url | prepend: site.baseurl }}#spot">Keep Reading...</a>
             {% else %}
               {{ post.content }}
             {% endif %}

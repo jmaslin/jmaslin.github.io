@@ -11,9 +11,15 @@ This past week, I attended the career fair at Drexel University. The event was H
 
 <img src="/assets/images/careerfair2014.jpg" alt="Brochure for the 2014 Fall Career Fair at Drexel University." width="50%" height="auto" />
 
+
 Drexel Students of all ages and majors showed up. Some were prepared with their portfolio of résumés and nicely fitting suits; others wore ill-fitting jackets and flashy watches that were either borrowed, fake, or both.
 
 As a sophomore, I am not exactly looking for a full-time position, so I went in with an open mind and my website on my nametag.
+
+
+<a name="spot">
+<!-- more -->
+---
 
 One of the first companies I talked to was [PPL Corporation][ppl], a giant energy company in the Fortune 500. The recruiter told me that most employees of PPL stay for a long time. When I asked him if there is room to grow, he told me they use an internal system that employees can use to look for promotions in the company. This was meant to sound exciting, but waiting in a queue for a management position is something I am interested in.
 
