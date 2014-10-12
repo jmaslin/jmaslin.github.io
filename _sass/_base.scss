@@ -50,11 +50,12 @@ img {
  * Figures
  */
 figure > img {
-    display: block;
+    display: inline-block;
 }
 
 figcaption {
     font-size: $small-font-size;
+    font-color: $grey-color-light;
 }
 
 
