@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 {% highlight java %}
-system.out.println("Hello world!");
+system.out.println("Hello, world!");
 {% endhighlight %}
 
 Some basic information about me:
