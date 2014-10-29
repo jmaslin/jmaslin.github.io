@@ -4,7 +4,7 @@ title: "Endgoal"
 date:   2014-10-12 15:00:00
 categories: work
 ---
-
+<!--
 ### What is your endgoal?
 
 This past week, I attended the career fair at Drexel University. The event was Hunger Games themed and had the tagline "May the jobs be ever in your favor." Before it started there was a line down the block. Much like the movie, everyone wanted to get to the "good tables" first. 
@@ -20,7 +20,7 @@ As a sophomore, I am not exactly looking for a full-time position, so I went in 
 <a name="spot">
 <!-- more -->
 ---
-
+<!--
 One of the first companies I talked to was [PPL Corporation][ppl], a giant energy company in the Fortune 500. The recruiter told me that most employees of PPL stay for a long time. When I asked him if there is room to grow, he told me they use an internal system that employees can use to look for promotions in the company. This was meant to sound exciting, but waiting in a queue for a management position is something I am interested in.
 
 I do not want to work for a company where there is a possibility you can move up the "corporate ladder" over 5-25 years. Another company I talked to told me they had a two year training program you participate in as you work full-time. The recruiter told me they invest a lot of time and energy into employees because most are planning on working for that company their whole life. *One company their entire life.*
@@ -35,3 +35,4 @@ Parachutes are necessary in life, but we define ourselves when we pull the chute
 
 [brochureURL]: /assets/images/careerfair2014.jpg
 [ppl]: http://www.pplweb.com
+-->
