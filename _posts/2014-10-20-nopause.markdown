@@ -1,5 +1,5 @@
 ---
-layout: draft
+layout: 
 title: "Ditch the Pause Button"
 date:   2014-10-20
 categories: life
