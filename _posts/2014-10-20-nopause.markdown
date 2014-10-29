@@ -1,0 +1,9 @@
+---
+layout: draft
+title: "Ditch the Pause Button"
+date:   2014-10-20
+categories: life
+---
+
+- Why do we hesitate
+- How can we stop this
