@@ -104,7 +104,8 @@
 }
 
 .contact-list,
-.social-media-list {
+.social-media-list,
+.portfolio > li {
     list-style: none;
     margin-left: 0;
 }
@@ -188,6 +189,10 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+}
+
+.post-meta > strong, ul > li > strong {
+    font-weight: bold;
 }
 
 .post-link {
