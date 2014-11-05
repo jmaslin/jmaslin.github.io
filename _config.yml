@@ -3,11 +3,11 @@ title: Justin Maslin
 email: me@justinmaslin.com
 timezone: America/New_York
 description: >
-  Student, developer, juice enthusiast! 
+  Student, developer, food truck enthusiast! 
   A blog about the life of someone who likes breakfast a little too much.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://justinmaslin.com" # the base hostname & protocol for your site
-twitter_username: justinmaslin
+# twitter_username: justinmaslin
 github_username:  jmaslin
 linkedin_username: justinmaslin
 
