@@ -19,4 +19,4 @@ Some basic information about me:
 For more information, please download my [resume][resume], check out my Github (some projects are private!), connect with me on LinkedIn, tweet me, or send a good old fashioned email.
 
 [rpi]: http://www.raspberrypi.org/
-[resume]: http://justinmaslin.com/JustinMaslinResume.pdf
+[resume]: http://justinmaslin.com/JustinMaslin.pdf
