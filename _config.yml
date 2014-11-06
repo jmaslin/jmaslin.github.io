@@ -11,5 +11,7 @@ url: "http://justinmaslin.com" # the base hostname & protocol for your site
 github_username:  jmaslin
 linkedin_username: justinmaslin
 
+lastupdated: Nov 5 2014
+
 # Build settings
 markdown: kramdown
