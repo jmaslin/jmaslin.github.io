@@ -8,9 +8,9 @@ permalink: /portfolio/
 <!-- <hr /> <br /> -->
 
 <ul class="portfolio-nav">
-	<a id="coopswitch"><li>Coopswitch</li></a>
-	<a id="eventme"><li>EventMe</li></a>
-	<a id="merecraft"><li>Merecraft</li></a>
+	<a id="coopswitchNav" href="#coopswitch"><li>Coopswitch</li></a>
+	<a id="eventmeNav" href="#eventme"><li>EventMe</li></a>
+	<a id="merecraftNav" href="#merecraft"><li>Merecraft</li></a>
 </ul>
 
 <ul class="portfolio">
@@ -64,37 +64,49 @@ permalink: /portfolio/
 
 <script>
 
+	window.onhaschange = changeProject();
+
 	$( document ).ready(function() {
 
+		console.log("Ready");
 		$('.portfolio > li').hide();
 
-		var url = window.location.href;
-
-		if (url.indexOf("#") != -1) {
-			project = url.substring(url.indexOf("#"), url.length);
-			$('.portfolio-nav a'+project).addClass('selected');
-			$('.portfolio > li'+project+"Item").fadeIn();
+		if (document.location.hash != "") {
+			goTo = document.location.hash;
+			changeProject(goTo);
 		}
+		// console.log(document.location.hash);
+		// if (url.indexOf("#") != -1) {
+		// 	project = url.substring(url.indexOf("#"), url.length);
+		// 	$('.portfolio-nav a'+project).addClass('selected');
+		// 	$('.portfolio > li'+project+"Item").fadeIn();
+		//}
 
 	});
 
-	$('.portfolio-nav a').click(function(e) {
+	function changeProject(goTo) {
+		$('.portfolio-nav a'+goTo+'Nav').find('li').addClass('selected');
+		$('.portfolio > li'+goTo+'Item').fadeIn();
+	}
 
-		e.preventDefault();
+	$('.portfolio-nav a').click(function(e) {
 		
-		itemSelected = $(this).attr('id');
+		itemSelected = $(this).attr('href');
+		// alert(itemSelected);
 
 		$.each($('.portfolio > li'), function() {
-			if (itemSelected != $(this).attr('id')) {
+			if (itemSelected+'Item' != $(this).attr('id')) {
 				$(this).hide();
 			}
 		});
 
-		$('#'+itemSelected+"Item").fadeIn();
+		$(itemSelected+"Item").fadeIn();
 
 		$('.portfolio-nav').find('.selected').removeClass('selected');
 		$(this).find('li').addClass('selected');
 		// $(this + ' > li').addClass("selected");
+		window.location.hash = itemSelected;
+		e.preventDefault();
 
 	});
 
