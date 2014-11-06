@@ -25,7 +25,7 @@ permalink: /portfolio/
 
 		<ul>
 			<li><strong>PHP</strong> and <strong>MySQL</strong> were used as the backend for this project. Instead of using a framework, I decided start from scratch in order to develop a greater understanding of the language.</li>
-			<li><strong>Twitter's Bootstrap</strong> framework, which consists of <strong>HTML, CSS, </strong>and <strong>Javascript</strong> classes was used for the majority of the frontend UI/UX. I also implemented some custom <strong>JQuery</strong> which was used for certain design elements and submitting <strong>AJAX</strong> requests.</li>
+			<li><strong>Twitter's Bootstrap</strong> framework, which consists of <strong>HTML, CSS, </strong>and <strong>Javascript</strong> classes was used for the majority of the frontend UI/UX. I also used <strong>JQuery</strong> for certain design elements and submitting <strong>AJAX</strong> requests.</li>
 			<li>This project is hosted on a small Digital Ocean<strong> VPS</strong> and is protected with a <strong>SSL</strong> script and passwordless auth via <strong>SSH</strong>.</li>
 		</ul>
 		<br />
