@@ -30,3 +30,5 @@ I want to create the declassifieds, because no experience ever falls into one ca
     Buzz at 10:21pm: Looking to bake a cake; I can provide eggs, flour, and an oven. 
                    	 Open to all friends of friends within a mile.
                    	 This buzz will expire in one hour if not answered.
+
+<em>This is the first post in my new Ideas series, where I will be blogging about different ideas that come to mind.</em>
