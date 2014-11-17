@@ -17,7 +17,7 @@ lastupdated: Nov 5 2014
 markdown: kramdown
 
 # Settings for analytics helper
-analytics :
-	provider : google
-	google :
-		tracking_id : 'UA-23918789-1'
+# analytics :
+# 	provider : google
+# 	google :
+# 		tracking_id : 'UA-23918789-1'
