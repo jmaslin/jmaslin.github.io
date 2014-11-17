@@ -35,7 +35,7 @@ This way would be fine if our upper limit was not two million. Running this code
 
 ![XKCD 303 - Compiling](http://imgs.xkcd.com/comics/compiling.png "Comic by XKCD")
 
-I am pretty sure Project Euler has a one minute compiling "rule" where you should get a solution in under a minute, so this solution was obviously not acceptable.
+I am pretty sure Project Euler has a one minute compiling "rule" where you should get your results in under a minute, so this solution was obviously not acceptable.
 
 The next thing I tried was putting the numbers in an ArrayList, from two to two million. Then, I ran them through a loop that deleted the numbers from the list if they were not prime. You can imagine this was not very efficient either - in fact, it was faster to brute force. After messing around with this (very messy) code for an extended period of time, I did some research on algorithms and stumbled upon the Sieve of Eratosthenes. 
 
