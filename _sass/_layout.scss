@@ -260,6 +260,8 @@
     padding-right: 15px;
     margin-right: 20px;
     border: 1px solid gray;
+    background-color: white;
+    
 }
 
 .portfolio-nav > a:hover {
@@ -270,7 +272,7 @@
     font-weight: bold;
 }
 
-.portfolio > li {
+.post-content, .portfolio > li {
 
     background-color: white;
     padding: 25px;
