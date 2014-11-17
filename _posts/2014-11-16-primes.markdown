@@ -12,24 +12,27 @@ Hopefully, by now, we know what they are. Do we, however, know an efficient way 
 This question, also known as [problem 10][problem-10] on Project Euler, seems pretty simple at face value. For beginners, the simplest and obvious solution is to solve it by brute force: 
 
 #### Exhibit A
+{% highlight java %}
 
-	long sumOfPrimes = 0;
-	boolean isPrime;
+long sumOfPrimes = 0;
+boolean isPrime;
 
-	for (int x = 2; x < 2000000; x++) {
-	    isPrime = true;
-	    for (int y = 2; y < x; y ++) {
-	        if (x % y == 0) {
-	            isPrime = false;
-	            break;
-	        }	    
-	    }
-	    if (isPrime) {
-	        sumOfPrimes += x;
-	    }
-	}
+for (int x = 2; x < 2000000; x ++) {
+    isPrime = true;
+    for (int y = 2; y < x; y ++) {
+        if (x % y == 0) {
+            isPrime = false;
+            break;
+        }	    
+    }
+    if (isPrime) {
+        sumOfPrimes += x;
+    }
+}
 
-	System.out.println(sumOfPrimes);
+System.out.println(sumOfPrimes);
+
+{% endhighlight %}
 
 This way would be fine if our upper limit was not two million. Running this code works, but it takes over 10 minutes to get the answer on my Acer Aspire S7-392 Ultrabook (a great computer, but it is not Watson). 
 
@@ -47,28 +50,32 @@ It took me a few tries to implement it correctly, but I believe I did it farily 
 
 #### Exhibit B
 
-	static ArrayList<Integer> primesList = new ArrayList<Integer>();
+{% highlight java %}
 
-	public static boolean isPrime(int testDigit) {
-	    for (int primeVal : primesList) {
-	        if (testDigit % primeVal == 0)
-	            return false;
-	    }
-	    return true;
-	}
+static ArrayList<Integer> primesList = new ArrayList<Integer>();
 
-	long sumOfPrimes = 0;
+public static boolean isPrime(int testDigit) {
+    for (int primeVal : primesList) {
+        if (testDigit % primeVal == 0)
+            return false;
+    }
+    return true;
+}
 
-	for (int x = 2; x < 2000000; x++) {
-	    if (isPrime(x))
-	        primesList.add(x);			
-	}
+long sumOfPrimes = 0;
 
-	for (int primeVal : primesList) {
-	    sumOfPrimes += primeVal;
-	}
+for (int x = 2; x < 2000000; x ++) {
+    if (isPrime(x))
+        primesList.add(x);			
+}
 
-	System.out.println(sumOfPrimes);
+for (int primeVal : primesList) {
+    sumOfPrimes += primeVal;
+}
+
+System.out.println(sumOfPrimes);
+
+{% endhighlight %}
 
 Instead of comparing each digit to every possible factor, we now only compare it to known prime numbers. Starting with 2, there are no digits in our array list of primes, so 2 is added to the prime list. The number 3 is compared to the array list of primes, which only consists of 2 - it cannot divide evenly, so 3 is added to the list of primes. When 4 is compared against the list of primes, it can divide evenly against 2, so it is not added to the list and the program breaks out since the number cannot be prime. And so on.
 
