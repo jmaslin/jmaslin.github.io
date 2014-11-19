@@ -17,9 +17,9 @@ permalink: /portfolio/
 	<li id="coopswitchItem">
 		<h3>Coopswitch</h3>
 		<p class="post-meta">
-			<strong>Established</strong> November 2013 | 
-			<strong>First Git Commit</strong> May 2014 | 
-			<strong>Currently</strong> In Progress
+			<strong>Established</strong> November 2013<br />
+			<strong>First Git Commit</strong> May 2014<br />
+			<strong>Currently</strong> In Progress<br />
 		</p>
 		<p class="post-meta"><strong>Development</strong> - <a href="https://github.com/jmaslin/Coopswitch">Github Repo</a></p>
 

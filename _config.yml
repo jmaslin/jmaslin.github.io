@@ -1,23 +1,28 @@
-# Site settings
-title: Justin Maslin
-email: contact@justinmaslin.com
-timezone: America/New_York
-description: >
-  Student, developer, food truck enthusiast! 
-  A blog about the life of someone who likes breakfast a little too much.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://justinmaslin.com" # the base hostname & protocol for your site
-# twitter_username: justinmaslin
-github_username:  jmaslin
-linkedin_username: justinmaslin
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
 
-lastupdated: Nov 5 2014
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-# Build settings
-markdown: kramdown
+# Setup
+title:            Justin Maslin
+tagline:          'Blog like it is 1999.'
+description:      'Business student, web developer, and aspiring entrepreneur.'
+url:              http://justinmaslin.com
+baseurl:          /
 
-# Settings for analytics helper
-# analytics :
-# 	provider : google
-# 	google :
-# 		tracking_id : 'UA-23918789-1'
+author:
+  name:           'Justin Maslin'
+  email:          'web@justinmaslin.com'
+  linkedin:				'justinmaslin'
+
+paginate:         5
+
+# Custom vars
+# version:          2.1.0
+
+github:
+  name:						'jmaslin'
+  # repo:           https://github.com/jmaslin
