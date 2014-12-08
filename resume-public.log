@@ -1,0 +1,46 @@
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.10.29)  30 NOV 2014 15:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/home/justin/git/resume/myresume/resume-public.tex
+(/home/justin/git/resume/myresume/resume-public.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+
+! LaTeX Error: File `sections/top.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+! Interruption.
+<to be read again> 
+                   }
+l.1 \input{sections/top.tex}
+                            ^^M
+? q
+OK, entering \batchmode...
+
+! LaTeX Error: File `sections/contact/public.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+ Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.3 \input{sections/contact/public.tex}
+                                       ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 8 strings out of 493918
+ 195 string characters out of 6150562
+ 52172 words of memory out of 5000000
+ 3428 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 5i,0n,3p,88b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
