@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-{% highlight java %}
-system.out.println("Hello, world!");
+{% highlight javascript %}
+console.log("Hello, world!");
 {% endhighlight %}
 
 Some basic information about me:
